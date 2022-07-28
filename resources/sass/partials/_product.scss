@@ -1,0 +1,145 @@
+.blue-stripe{
+    width: 100%;
+    height: 70px;
+    background-color: #0282f9;
+}
+.content-card {
+    width: 100wh;
+    background-color: #fff;
+
+    .container-card {
+      width: 80%;
+      height: 100%;
+      color: white;
+      margin: 0 auto;
+
+      .series-card{
+        // height: 50px;
+        position: relative;
+        display: flex;
+        max-width: 1400px;
+        padding-bottom: 100px;
+
+
+        .abs-img {
+          background-color: #0282f9;
+          display: inline-block;
+          position: absolute;
+          top: -310px;
+        }
+
+        .card-info{
+            padding-top: 50px;
+            color: #003f5e;
+            width: 60%;
+            margin-right: 50px;
+
+
+            .card-misc{
+                display: flex;
+                margin: 15px 0;
+
+                .card-price{
+                    width: 70%;
+                    background-color: #55ba59;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 15px 25px;
+                    border-right: 1px black solid;
+                    border-bottom: 1px black solid;
+                    color: #86f29c;
+
+                    .price{
+                        color: white;
+                    }
+                }
+
+                .card-avail{
+                    width: 30%;
+                    background-color: #55ba59;
+                    text-align: center;
+                    border-bottom: 1px black solid;
+                    padding: 15px 25px;
+                    color: white;
+                }
+            }
+        }
+
+        .card-advert{
+            width: 21%;
+            height: 50px;
+            padding-top: 25px;
+            color: #003f5e;
+
+            h4{
+                margin-bottom: 5px;
+                text-align: end;
+            }
+
+        }
+
+      }
+
+      .comics-container-card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 87%;
+        margin: 0 auto;
+
+        a{
+
+            text-decoration: none;
+            color: white;
+        }
+
+        .comics-card-card {
+            margin: 5px 10px;
+            img{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: top;
+            }
+            h4{
+                width: 150px;
+                margin: 15px 0;
+            }
+        }
+      }
+
+      .load-b-card {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        a {
+          text-decoration: none;
+          color: white;
+          background-color: #0282f9;
+          padding: 10px 40px;
+        }
+      }
+    }
+
+    .card-other-info{
+        background-color: #f6f6f6;
+        width: 100%;
+        height: 300px;
+        color: #003f5e;
+
+        .other-info-wrapper{
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            padding-top: 20px;
+
+            .talent{
+                width: 50%;
+            }
+
+            .specs{
+                width: 50%;
+            }
+        }
+    }
+  }

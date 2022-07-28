@@ -1,0 +1,65 @@
+.content {
+    width: 100wh;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+
+    .container {
+      width: 80%;
+      height: 100%;
+      color: white;
+
+      .series{
+        height: 50px;
+        position: relative;
+
+        h2 {
+          background-color: #0282f9;
+          padding: 10px 40px;
+          display: inline-block;
+          position: absolute;
+          top: -25px;
+        }
+      }
+
+      .comics-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 87%;
+        margin: 0 auto;
+
+        a{
+
+            text-decoration: none;
+            color: white;
+        }
+
+        .comics-card {
+            margin: 5px 10px;
+            img{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: top;
+            }
+            h4{
+                width: 150px;
+                margin: 15px 0;
+            }
+        }
+      }
+
+      .load-b {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        a {
+          text-decoration: none;
+          color: white;
+          background-color: #0282f9;
+          padding: 10px 40px;
+        }
+      }
+    }
+  }

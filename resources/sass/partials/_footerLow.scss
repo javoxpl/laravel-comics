@@ -1,0 +1,45 @@
+.footer_low{
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #303030;
+        .container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .button{
+          width: 20%;
+
+          a{
+            color: white;
+            text-decoration: none;
+            border: 2px solid #0282f9;
+            padding: 10px;
+          }
+        }
+
+        .socials{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: end;
+
+          h3{
+            margin-right: 20px;
+            color: #0282f9;
+          }
+
+          ul{
+            display: flex;
+
+            li{
+              list-style: none;
+              margin: 5px;
+            }
+          }
+        }
+      }
+  }

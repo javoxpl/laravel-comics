@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  width: 100wh;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.navbar .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.navbar .container .logo {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.navbar .container .logo img {
+  width: 80px;
+}
+.navbar .container .navlist {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.navbar .container .navlist li {
+  margin: 0 5px;
+}
+.navbar .container .navlist li a {
+  color: black;
+  text-decoration: none;
+  padding: 43px 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.navbar .container .navlist li a:hover {
+  color: violet;
+}
+.navbar .container .navlist li a.here {
+  border-bottom: 8px solid rgb(0, 110, 255);
+  color: rgb(0, 110, 255);
+}
+
+.jumbotron {
+  width: 100wh;
+  height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 100wh;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+}
+.content .container {
+  width: 80%;
+  height: 100%;
+  color: white;
+}
+.content .container .series {
+  height: 50px;
+  position: relative;
+}
+.content .container .series h2 {
+  background-color: #0282f9;
+  padding: 10px 40px;
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+}
+.content .container .comics-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 87%;
+  margin: 0 auto;
+}
+.content .container .comics-container a {
+  text-decoration: none;
+  color: white;
+}
+.content .container .comics-container .comics-card {
+  margin: 5px 10px;
+}
+.content .container .comics-container .comics-card img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.content .container .comics-container .comics-card h4 {
+  width: 150px;
+  margin: 15px 0;
+}
+.content .container .load-b {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.content .container .load-b a {
+  text-decoration: none;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 40px;
+}
+
+.blue-stripe {
+  width: 100%;
+  height: 70px;
+  background-color: #0282f9;
+}
+
+.content-card {
+  width: 100wh;
+  background-color: #fff;
+}
+.content-card .container-card {
+  width: 80%;
+  height: 100%;
+  color: white;
+  margin: 0 auto;
+}
+.content-card .container-card .series-card {
+  position: relative;
+  display: flex;
+  max-width: 1400px;
+  padding-bottom: 100px;
+}
+.content-card .container-card .series-card .abs-img {
+  background-color: #0282f9;
+  display: inline-block;
+  position: absolute;
+  top: -310px;
+}
+.content-card .container-card .series-card .card-info {
+  padding-top: 50px;
+  color: #003f5e;
+  width: 60%;
+  margin-right: 50px;
+}
+.content-card .container-card .series-card .card-info .card-misc {
+  display: flex;
+  margin: 15px 0;
+}
+.content-card .container-card .series-card .card-info .card-misc .card-price {
+  width: 70%;
+  background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  color: #86f29c;
+}
+.content-card .container-card .series-card .card-info .card-misc .card-price .price {
+  color: white;
+}
+.content-card .container-card .series-card .card-info .card-misc .card-avail {
+  width: 30%;
+  background-color: #55ba59;
+  text-align: center;
+  border-bottom: 1px black solid;
+  padding: 15px 25px;
+  color: white;
+}
+.content-card .container-card .series-card .card-advert {
+  width: 21%;
+  height: 50px;
+  padding-top: 25px;
+  color: #003f5e;
+}
+.content-card .container-card .series-card .card-advert h4 {
+  margin-bottom: 5px;
+  text-align: end;
+}
+.content-card .container-card .comics-container-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 87%;
+  margin: 0 auto;
+}
+.content-card .container-card .comics-container-card a {
+  text-decoration: none;
+  color: white;
+}
+.content-card .container-card .comics-container-card .comics-card-card {
+  margin: 5px 10px;
+}
+.content-card .container-card .comics-container-card .comics-card-card img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.content-card .container-card .comics-container-card .comics-card-card h4 {
+  width: 150px;
+  margin: 15px 0;
+}
+.content-card .container-card .load-b-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.content-card .container-card .load-b-card a {
+  text-decoration: none;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 40px;
+}
+.content-card .card-other-info {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 300px;
+  color: #003f5e;
+}
+.content-card .card-other-info .other-info-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  padding-top: 20px;
+}
+.content-card .card-other-info .other-info-wrapper .talent {
+  width: 50%;
+}
+.content-card .card-other-info .other-info-wrapper .specs {
+  width: 50%;
+}
+
+.bluepart {
+  width: 100wh;
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  height: 140px;
+}
+.bluepart .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bluepart .container li {
+  list-style: none;
+}
+.bluepart .container .small-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+.bluepart .container .small-container img {
+  width: 40px;
+  height: 55px;
+  margin-right: 5px;
+}
+
+.footer {
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer .container .f-links {
+  width: 60%;
+  display: flex;
+  color: white;
+}
+.footer .container .f-links ul {
+  margin-right: 20px;
+}
+.footer .container .f-links h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.footer .container .f-links li {
+  list-style: none;
+}
+.footer .container .f-links li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+}
+.footer .container .f-pic {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.footer .container .f-pic img {
+  width: 90%;
+}
+
+.footer_low {
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #303030;
+}
+.footer_low .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer_low .container .button {
+  width: 20%;
+}
+.footer_low .container .button a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+.footer_low .container .socials {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.footer_low .container .socials h3 {
+  margin-right: 20px;
+  color: #0282f9;
+}
+.footer_low .container .socials ul {
+  display: flex;
+}
+.footer_low .container .socials ul li {
+  list-style: none;
+  margin: 5px;
+}
